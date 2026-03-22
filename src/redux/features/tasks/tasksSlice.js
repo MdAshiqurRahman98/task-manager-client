@@ -7,7 +7,7 @@ const initialState = {
             status: 'pending',
             title: 'Remove Button',
             description:
-                'We need a remove button in our task card. Meke the button red and use Heroicon for trashbin icon.',
+                'We need a remove button in our task card. Make the button red and use Heroicon for trashbin icon.',
             date: '2026-03-22',
             assignedTo: 'Md Ashiqur Rahman',
             priority: 'high',
