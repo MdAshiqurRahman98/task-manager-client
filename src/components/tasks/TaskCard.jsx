@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import {
     removeTask,
     updateStatus,
-} from '../../redux/features/tasks/tasksSlice';
+} from '../../redux/features/task/taskSlice';
 
 const TaskCard = ({ task }) => {
     const dispatch = useDispatch();

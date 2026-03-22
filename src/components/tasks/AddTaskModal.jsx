@@ -1,7 +1,7 @@
 import { useForm } from 'react-hook-form';
 import Modal from '../ui/Modal';
 import { useDispatch } from 'react-redux';
-import { addTask } from '../../redux/features/tasks/tasksSlice';
+import { addTask } from '../../redux/features/task/taskSlice';
 
 const AddTaskModal = ({ isOpen, setIsOpen }) => {
     const { register, handleSubmit, reset } = useForm();
@@ -103,7 +103,7 @@ const AddTaskModal = ({ isOpen, setIsOpen }) => {
                         Cancel
                     </button>
                     <button type="submit" className="btn btn-primary ">
-                        submit
+                        Submit
                     </button>
                 </div>
             </form>
