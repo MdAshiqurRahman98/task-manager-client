@@ -1,16 +1,121 @@
-# React + Vite
+# 📌 Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, scalable Task Manager web app built with React and Redux Toolkit, designed to help users efficiently manage daily tasks with a clean UI and seamless user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# 🚀 Live Demo
 
-## React Compiler
+Netlify Deployment:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```
+https://taskmanager-live.netlify.app
+```
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 🛠 Tech Stack
+
+| Technology      | Purpose                    |
+| --------------- | -------------------------- |
+| React           | Frontend library           |
+| React Router    | Routing library            |
+| Redux Toolkit   | State management           |
+| Tailwind CSS    | UI styling                 |
+| Headless UI     | UI components              |
+| React Hook Form | Form handling & validation |
+| Hero Icons      | Icons                      |
+| Netlify         | Deployment                 |
+
+---
+
+# 📂 Project Architecture
+
+```
+task-manager-client/
+│
+├── public/                 # Static files
+├── src/
+│   ├── assets/             # Images, icons
+│   ├── components/         # Reusable components
+│   ├── pages/              # Page-level components
+│   ├── redux/              # Redux slices / state management
+│   ├── routes/             # Routing configuration
+│   ├── utils/              # Helper utilities
+│   ├── App.jsx             # Root component
+│   ├── index.css           # Global styling
+│   └── main.jsx            # Entry point
+│
+├── .env.local              # Environment variables
+├── package.json
+└── README.md
+```
+
+---
+
+# ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```
+git clone https://github.com/MdAshiqurRahman98/task-manager-client.git
+```
+
+---
+
+### 2️⃣ Navigate to Project Directory
+
+```
+cd task-manager-client
+```
+
+---
+
+### 3️⃣ Install Dependencies
+
+```
+npm install
+```
+
+---
+
+### 4️⃣ Run Development Server
+
+```
+npm run dev
+```
+
+Application will run at:
+
+```
+http://localhost:5173
+```
+
+---
+
+# 🎨 Styling
+
+Styling is implemented using **Tailwind CSS**.
+
+Styles are located at:
+
+```
+src/index.css
+```
+
+---
+
+# 🚀 Deployment
+
+The application can be deployed using **Netlify**.
+
+### Build Project
+
+```
+npm run build
+```
+
+### Deploy
+
+Upload the **dist** folder to Netlify
+or connect the GitHub repository for automatic deployment.
