@@ -8,7 +8,7 @@ import TaskDetailsModal from './TaskDetailsModal';
 import { updateStatus, userTasks } from '../../redux/features/task/taskSlice';
 
 const MyTasks = () => {
-    const { tasks, userSpecificTasks } = useSelector((state) => state.tasksSlice);
+    const { tasks, userSpecificTasks } = useSelector((state) => state.taskSlice);
     const { name } = useSelector((state) => state.userSlice);
     const [isOpen, setIsOpen] = useState(false);
     const [taskId, setTaskId] = useState(0);

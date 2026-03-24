@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux';
 import Modal from '../ui/Modal';
 
 const TaskDetailsModal = ({ isOpen, setIsOpen, id }) => {
-    const { tasks } = useSelector((state) => state.tasksSlice);
+    const { tasks } = useSelector((state) => state.taskSlice);
 
     const task = tasks.find((item) => item.id === id);
 

@@ -8,7 +8,7 @@ import MenuDropdown from '../components/ui/MenuDropdown';
 
 const Tasks = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const { tasks } = useSelector((state) => state.tasksSlice);
+    const { tasks } = useSelector((state) => state.taskSlice);
 
     const pendingTasks = tasks?.filter((item) => item.status == 'pending');
     const runningTasks = tasks?.filter((item) => item.status == 'running');
