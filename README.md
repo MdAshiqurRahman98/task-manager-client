@@ -1,6 +1,6 @@
 # 📌 Task Manager
 
-A modern, scalable Task Manager web app built with React and Redux Toolkit, designed to help users efficiently manage daily tasks with a clean UI and seamless user experience.
+A Task Manager web app built with React and Redux Toolkit, designed to help users efficiently manage daily tasks with a clean UI and seamless user experience.
 
 ---
 
